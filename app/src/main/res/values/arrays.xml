@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="predefined_categories">
+        <item>Food&amp;Beverages</item>
+        <item>Stationary</item>
+        <item>Clothes</item>
+        <item>Automobiles</item>
+        <item>Home&amp;Living</item>
+        <item>Health</item>
+        <item>Books&amp;Magazines</item>
+        <item>Mom&amp;Baby</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Shopper\'s Mate</string>
+    <string name="food_beverages"><![CDATA[Food&Beverages]]></string>
+    <string name="home_living"><![CDATA[Home&Living]]></string>
+    <string name="books_magazines"><![CDATA[Books&Magazines]]></string>
+    <string name="mom_baby"><![CDATA[Mom&Baby]]></string>
+    <string name="delete_icon">Delete Icon</string>
+</resources>

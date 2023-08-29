@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp"
+    android:elevation="12dp"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/recCard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/item_background_color"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/prd_img"
+            android:layout_width="102dp"
+            android:layout_height="104dp"
+            android:layout_marginTop="6dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+
+
+        <TextView
+            android:id="@+id/prd_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/prd_img"
+            android:text="Product Name"
+            android:textColor="@color/darkNavy"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/prd_barcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prd_name"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/prd_img"
+            android:text="573485634"
+            android:textColor="@color/darkNavy"
+            android:textSize="25sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/prd_cat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prd_barcode"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/prd_img"
+            android:text="Category"
+            android:textColor="@color/darkGrey"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/prd_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prd_cat"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/prd_img"
+            android:text="RM 22.10"
+            android:textColor="@color/darkNavy"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/prd_desc"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prd_price"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/prd_img"
+            android:text="Description"
+            android:textColor="@color/darkGrey"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:maxLines="3"
+            android:ellipsize="end" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

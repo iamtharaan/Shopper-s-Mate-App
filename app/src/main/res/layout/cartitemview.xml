@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp"
+    android:elevation="12dp"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/recCardCart"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:background="@color/lightCyan"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/img_cart"
+            android:layout_width="115dp"
+            android:layout_height="114dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+
+
+        <ImageView
+            android:id="@+id/btn_clear"
+            android:layout_width="50dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="-11dp"
+            android:layout_toEndOf="@+id/name_cart"
+            android:src="@drawable/clear_icon" />
+
+        <TextView
+            android:id="@+id/name_cart"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/img_cart"
+            android:text="Product Name"
+            android:textColor="@color/darkNavy"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/barcode_cart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_cart"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/img_cart"
+            android:text="573485634"
+            android:textColor="@color/darkNavy"
+            android:textSize="25sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/prd_cat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/barcode_cart"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/img_cart"
+            android:textColor="@color/darkNavy"
+            android:text="Category"
+
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/prd_price_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prd_cat"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="-1dp"
+            android:layout_toRightOf="@id/img_cart"
+            android:text="RM 22.10"
+            android:textColor="@color/darkNavy"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/prd_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prd_price_total"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="11dp"
+            android:layout_toRightOf="@id/img_cart"
+            android:text="2"
+            android:textColor="@color/darkNavy"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

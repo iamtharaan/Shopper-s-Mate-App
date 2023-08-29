@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- Background for Header -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/headerTextView"
+        android:layout_alignBottom="@id/headerTextView"
+        android:background="#F0F0F0" /> <!-- Set the desired background color here -->
+
+    <!-- Header TextView -->
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cyan"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="SHOP LOCATION"
+        android:textColor="@color/darkTurquoise"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/headerTextView"
+        android:src="@drawable/meat__poultry" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "489652071578",
+    "firebase_url": "https://userroles-e218f-default-rtdb.firebaseio.com",
+    "project_id": "userroles-e218f",
+    "storage_bucket": "userroles-e218f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489652071578:android:5ea482fffc0115ff990323",
+        "android_client_info": {
+          "package_name": "com.smallacademy.userroles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489652071578-1kkgmg06srqdjci39siebjjm4u0gggh5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeNW5JCRTAy1XctJaqVe57Do-KAGUj5Ng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489652071578-1kkgmg06srqdjci39siebjjm4u0gggh5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

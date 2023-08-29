@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/darkTurquoise" /> <!-- Replace "your_color" with the desired color -->
+    <corners android:radius="50dp" />
+</shape>

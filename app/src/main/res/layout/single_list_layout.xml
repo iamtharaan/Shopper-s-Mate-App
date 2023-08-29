@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:elevation="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_background_color"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/topic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Topic"
+            android:textColor="#1A1A1A"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/deleteItem"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/ic_baseline_clear_24"
+            android:tint="#FF0000" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/topic"
+            android:layout_marginTop="8dp"
+            android:text="This is the description"
+            android:textColor="#4D4D4D"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/edit"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@id/description"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_baseline_create_24"
+            android:tint="#0078D7" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

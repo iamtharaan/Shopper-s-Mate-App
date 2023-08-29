@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HompageDesign" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <!-- Dark action bar theme for AdminPanel -->
+    <style name="AppTheme.AdminPanel" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize the theme for AdminPanel here. -->
+        <item name="colorPrimary">@color/logo_color</item>
+        <item name="colorPrimaryDark">@color/button_color</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Light theme for UserActivity -->
+    <style name="AppTheme.MainActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize the theme for UserActivity here. -->
+        <item name="colorPrimary">@color/logo_color</item>
+        <item name="colorPrimaryDark">@color/button_color</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.SplashUser" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize the splash screen background, text color, etc. as needed -->
+        <item name="android:windowBackground">@drawable/splash_screen_user</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.SplashAdmin" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize the splash screen background, text color, etc. as needed -->
+        <item name="android:windowBackground">@drawable/splash_screen_admin</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

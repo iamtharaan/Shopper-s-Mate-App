@@ -1,7 +1,13 @@
-# Shopper's_Mate
-
-**Username: admin
-Password: Admin_2023
+# Shopper's Mate
 
 Username: shopper
-Password: Shopper_2023**
+Password: Shopper_2023
+
+Admin Panel
+Username: admin
+Password: Admin_2023
+
+
+
+
+
